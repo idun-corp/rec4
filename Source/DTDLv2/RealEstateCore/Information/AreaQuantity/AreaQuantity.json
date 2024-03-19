@@ -1,0 +1,43 @@
+{
+  "@id": "dtmi:org:w3id:rec:AreaQuantity;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "value"
+      },
+      "name": "value",
+      "schema": "float",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "measurement unit"
+      },
+      "name": "measurementUnit",
+      "schema": "string",
+      "writable": true
+    }
+  ],
+  "description": {
+    "en": "Describes business-relevant area measurements typically associated with architected spaces."
+  },
+  "displayName": {
+    "en": "AreaQuantity"
+  },
+  "extends": "dtmi:org:w3id:rec:Information;1",
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ]
+}

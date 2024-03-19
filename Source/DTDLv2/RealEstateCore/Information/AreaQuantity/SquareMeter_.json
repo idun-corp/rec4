@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:org:w3id:rec:SquareMeterAreaQuantity;1",
+  "@type": "Interface",
+  "description": {
+    "en": "SquareMeter Area Quantity."
+  },
+  "displayName": {
+    "en": "SquareMeterAreaQuantity"
+  },
+  "extends": "dtmi:org:w3id:rec:AreaQuantity;1",
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ]
+}
