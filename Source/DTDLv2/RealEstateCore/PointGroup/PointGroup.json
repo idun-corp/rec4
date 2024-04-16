@@ -15,9 +15,9 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "has point"
+        "en": "has member"
       },
-      "name": "hasPoint",
+      "name": "hasMember",
       "target": "dtmi:org:w3id:rec:Point;1",
       "writable": true
     },
