@@ -18,7 +18,16 @@
         "en": "has member"
       },
       "name": "hasMember",
-      "target": "dtmi:org:w3id:rec:Point;1",
+      "target": "dtmi:org:brickschema:schema:Brick:Point;1",
+      "writable": true
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "is point group of"
+      },
+      "name": "isPointGroupOf",
+      "target": "dtmi:org:w3id:rec:Asset;1",
       "writable": true
     },
 

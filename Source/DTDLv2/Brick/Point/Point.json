@@ -743,9 +743,9 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "has location"
+        "en": "located in"
       },
-      "name": "hasLocation",
+      "name": "locatedIn",
       "target": "dtmi:org:w3id:rec:Architecture;1",
       "writable": true,
       "maxMultiplicity": 1
