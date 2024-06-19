@@ -4,7 +4,7 @@
   "displayName": {
     "en": "Terrace"
   },
-  "extends": "dtmi:org:w3id:rec:Architecture;1",
+  "extends": "dtmi:org:w3id:rec:OutdoorSpace;1",
   "@context": [
     "dtmi:dtdl:context;2"
   ]
