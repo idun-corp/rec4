@@ -31,21 +31,12 @@
       "writable": true
     },
     {
-      "@type": "Property",
+      "@type": "Relationship",
       "displayName": {
-        "en": "connector type"
+        "en": "has point"
       },
-      "name": "connectorType",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "connector name"
-      },
-      "name": "connectorName",
-      "schema": "string",
+      "name": "hasPoint",
+      "target": "dtmi:org:w3id:rec:GatewayConnectionParameter;1",
       "writable": true
     },
     {
