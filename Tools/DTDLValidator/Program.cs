@@ -127,6 +127,10 @@
 
             try
             {
+                modelList
+                    .FindAll(i => i.Contains("Logical"))
+                    .ForEach(i => Console.Write("{0}\n", i));
+                
                 IReadOnlyDictionary<Dtmi, DTEntityInfo> om = modelParser.ParseAsync(modelList.ToAsyncEnumerable()).GetAwaiter().GetResult();
                 Console.WriteLine("");
                 Console.WriteLine($"**********************************************");
@@ -150,8 +154,9 @@
             
                 Environment.Exit(3);
             }
-            catch (ResolutionException)
+            catch (ResolutionException resolutionException)
             {
+                Console.Error.WriteLine(resolutionException.StackTrace);
                 Console.Error.WriteLine("Could not resolve required references.");
                 Environment.Exit(3);
             }

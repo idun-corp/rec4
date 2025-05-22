@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "locatedIn": "dtmi:org:w3id:rec:PointGroup:_contents:__locatedIn;1",
+    "hasMember": "dtmi:org:w3id:rec:PointGroup:_contents:__hasMember;1",
+    "isPointGroupOf": "dtmi:org:w3id:rec:PointGroup:_contents:__isPointGroupOf;1",
+    "customTags": "dtmi:org:w3id:rec:PointGroup:_contents:__customTags;1",
+    "identifiers": "dtmi:org:w3id:rec:PointGroup:_contents:__identifiers;1",
+    "name": "dtmi:org:w3id:rec:PointGroup:_contents:__name;1"
+  }
+}

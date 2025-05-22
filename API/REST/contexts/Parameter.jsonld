@@ -8,6 +8,8 @@
     "hasSubstance": "dtmi:org:brickschema:schema:Brick:Point:_contents:__hasSubstance;1",
     "identifiers": "dtmi:org:brickschema:schema:Brick:Point:_contents:__identifiers;1",
     "name": "dtmi:org:brickschema:schema:Brick:Point:_contents:__name;1",
-    "isPointOf": "dtmi:org:brickschema:schema:Brick:Point:_contents:__isPointOf;1"
+    "isPointOf": "dtmi:org:brickschema:schema:Brick:Point:_contents:__isPointOf;1",
+    "locatedIn": "dtmi:org:brickschema:schema:Brick:Point:_contents:__locatedIn;1",
+    "isMemberOf": "dtmi:org:brickschema:schema:Brick:Point:_contents:__isMemberOf;1"
   }
 }

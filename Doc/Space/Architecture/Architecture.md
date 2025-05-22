@@ -12,7 +12,7 @@ A designed/landscaped (or potentially designed/landscaped) part of the physical 
 ## Child interfaces
 * [Building](Building/Building.md)
 * [Level](Level/Level.md)
-* [OutdoorSpace](OutdoorSpace.md)
+* [OutdoorSpace](OutdoorSpace/OutdoorSpace.md)
 * [Room](Room/Room.md)
 * [Site](Site.md)
 * [SubBuilding](SubBuilding.md)
@@ -58,26 +58,30 @@ A designed/landscaped (or potentially designed/landscaped) part of the physical 
 
 ## Target Of
 ### General
-* [Point](../../Point/Point.md).isPointOf
+* [Portfolio](../../Collection/Portfolio.md).includes
+* [PointOfInterest](../../Information/PointOfInterest.md).objectOfInterest
 * [Agent](../../Agent/Agent.md).owns
 * [Space](../Space.md).isLocationOf
-* [Equipment](../../Asset/Equipment/Equipment.md).feeds
-* [Equipment](../../Asset/Equipment/Equipment.md).isFedBy
-* [System](../../Collection/System/System.md).includes
-* [Architecture](#).isFedBy
+* [Lease](../../Event/Lease.md).leaseOf
+* [Point](../../Point/Point.md).isPointOf
 * [Document](../../Information/Document/Document.md).documentTopic
 * [Document](../../Information/Document/Document.md).url
-* [Lease](../../Event/Lease.md).leaseOf
-* [PointOfInterest](../../Information/PointOfInterest.md).objectOfInterest
-* [Portfolio](../../Collection/Portfolio.md).includes
 * [ServiceObject](../../Information/ServiceObject/ServiceObject.md).relatedTo
+* [Architecture](#).isFedBy
+* [System](../../Collection/System/System.md).includes
+* [Equipment](../../Asset/Equipment/Equipment.md).feeds
+* [Equipment](../../Asset/Equipment/Equipment.md).isFedBy
 * [Meter](../../Asset/Equipment/Meter/Meter.md).meters
 ### Direct
+* [Point](../../Point/Point.md).locatedIn
 * [BuildingElement](../../BuildingElement/BuildingElement.md).locatedIn
 * [Campus](../../Collection/Campus.md).includes
 * [Premises](../../Collection/Premises.md).includes
 * [RealEstate](../../Collection/RealEstate.md).includes
 ### Inherited
 * [Asset](../../Asset/Asset.md).locatedIn
+* [LogicalDevice](../../LogicalDevice/LogicalDevice.md).locatedIn
+* [PointGroup](../../PointGroup.md).locatedIn
 * [Space](../Space.md).hasPart
 * [Space](../Space.md).isPartOf
+* [SpaceCollection](../../Collection/Space-.md).includes

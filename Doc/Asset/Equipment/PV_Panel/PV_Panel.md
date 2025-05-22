@@ -36,19 +36,19 @@ An integrated assembly of interconnected photovoltaic cells designed to deliver 
 
 ## Target Of
 ### General
-* [Point](../../../Point/Point.md).isPointOf
+* [Portfolio](../../../Collection/Portfolio.md).includes
+* [PointOfInterest](../../../Information/PointOfInterest.md).objectOfInterest
 * [Agent](../../../Agent/Agent.md).owns
 * [Space](../../../Space/Space.md).isLocationOf
-* [Equipment](../Equipment.md).feeds
-* [Equipment](../Equipment.md).isFedBy
-* [System](../../../Collection/System/System.md).includes
-* [Architecture](../../../Space/Architecture/Architecture.md).isFedBy
+* [Lease](../../../Event/Lease.md).leaseOf
+* [Point](../../../Point/Point.md).isPointOf
 * [Document](../../../Information/Document/Document.md).documentTopic
 * [Document](../../../Information/Document/Document.md).url
-* [Lease](../../../Event/Lease.md).leaseOf
-* [PointOfInterest](../../../Information/PointOfInterest.md).objectOfInterest
-* [Portfolio](../../../Collection/Portfolio.md).includes
 * [ServiceObject](../../../Information/ServiceObject/ServiceObject.md).relatedTo
+* [Architecture](../../../Space/Architecture/Architecture.md).isFedBy
+* [System](../../../Collection/System/System.md).includes
+* [Equipment](../Equipment.md).feeds
+* [Equipment](../Equipment.md).isFedBy
 * [Meter](../Meter/Meter.md).meters
 ### Direct
 * [PV_Array](../../../Collection/PV_Array.md).includes
@@ -57,3 +57,4 @@ An integrated assembly of interconnected photovoltaic cells designed to deliver 
 * [Asset](../../Asset.md).hasPart
 * [Asset](../../Asset.md).isPartOf
 * [EquipmentCollection](../../../Collection/Equipment-.md).includes
+* [PointGroup](../../../PointGroup.md).isPointGroupOf

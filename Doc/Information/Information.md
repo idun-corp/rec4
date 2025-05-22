@@ -31,17 +31,17 @@
 
 ## Target Of
 ### General
-* [Point](../Point/Point.md).isPointOf
+* [Portfolio](../Collection/Portfolio.md).includes
+* [PointOfInterest](PointOfInterest.md).objectOfInterest
 * [Agent](../Agent/Agent.md).owns
 * [Space](../Space/Space.md).isLocationOf
-* [Equipment](../Asset/Equipment/Equipment.md).feeds
-* [Equipment](../Asset/Equipment/Equipment.md).isFedBy
-* [System](../Collection/System/System.md).includes
-* [Architecture](../Space/Architecture/Architecture.md).isFedBy
+* [Lease](../Event/Lease.md).leaseOf
+* [Point](../Point/Point.md).isPointOf
 * [Document](Document/Document.md).documentTopic
 * [Document](Document/Document.md).url
-* [Lease](../Event/Lease.md).leaseOf
-* [PointOfInterest](PointOfInterest.md).objectOfInterest
-* [Portfolio](../Collection/Portfolio.md).includes
 * [ServiceObject](ServiceObject/ServiceObject.md).relatedTo
+* [Architecture](../Space/Architecture/Architecture.md).isFedBy
+* [System](../Collection/System/System.md).includes
+* [Equipment](../Asset/Equipment/Equipment.md).feeds
+* [Equipment](../Asset/Equipment/Equipment.md).isFedBy
 * [Meter](../Asset/Equipment/Meter/Meter.md).meters

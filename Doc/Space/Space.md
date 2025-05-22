@@ -19,7 +19,7 @@ A contiguous part of the physical world that contains or can contain sub-spaces.
 
 |Name|Display name|Description|Multiplicity|Target|Properties|Writable|
 |-|-|-|-|-|-|-|
-|geometry|**en**: geometry|**en**: Polygon representing the spatial extent of this Space.|0-1|[Geometry](../Information/Geometry/Geometry.md)||True|
+|geometry|**en**: geometry|**en**: Polygon representing the spatial extent of this Space.|0-Infinity|[Geometry](../Information/Geometry/Geometry.md)||True|
 |georeference|**en**: georeference|**en**: A georeference creates a relationship between the local coordinate system used within a building (e.g., measured in meters) and a geographic coordinate system (e.g., lat, long, alt), such that locally placed Spaces can be resolved and rendered in that geographic coordinate system (e.g., for mapping purposes).|0-1|[Georeference](../Information/Georeference/Georeference.md)||True|
 |hasPart|**en**: has part||0-Infinity|[Space](#)||True|
 |isLocationOf|**en**: is location of||0-Infinity|||True|
@@ -40,21 +40,24 @@ A contiguous part of the physical world that contains or can contain sub-spaces.
 
 ## Target Of
 ### General
-* [Point](../Point/Point.md).isPointOf
+* [Portfolio](../Collection/Portfolio.md).includes
+* [PointOfInterest](../Information/PointOfInterest.md).objectOfInterest
 * [Agent](../Agent/Agent.md).owns
 * [Space](#).isLocationOf
-* [Equipment](../Asset/Equipment/Equipment.md).feeds
-* [Equipment](../Asset/Equipment/Equipment.md).isFedBy
-* [System](../Collection/System/System.md).includes
-* [Architecture](Architecture/Architecture.md).isFedBy
+* [Lease](../Event/Lease.md).leaseOf
+* [Point](../Point/Point.md).isPointOf
 * [Document](../Information/Document/Document.md).documentTopic
 * [Document](../Information/Document/Document.md).url
-* [Lease](../Event/Lease.md).leaseOf
-* [PointOfInterest](../Information/PointOfInterest.md).objectOfInterest
-* [Portfolio](../Collection/Portfolio.md).includes
 * [ServiceObject](../Information/ServiceObject/ServiceObject.md).relatedTo
+* [Architecture](Architecture/Architecture.md).isFedBy
+* [System](../Collection/System/System.md).includes
+* [Equipment](../Asset/Equipment/Equipment.md).feeds
+* [Equipment](../Asset/Equipment/Equipment.md).isFedBy
 * [Meter](../Asset/Equipment/Meter/Meter.md).meters
 ### Direct
 * [Asset](../Asset/Asset.md).locatedIn
+* [LogicalDevice](../LogicalDevice/LogicalDevice.md).locatedIn
+* [PointGroup](../PointGroup.md).locatedIn
 * [Space](#).hasPart
 * [Space](#).isPartOf
+* [SpaceCollection](../Collection/Space-.md).includes
